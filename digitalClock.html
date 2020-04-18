@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="digitalClock.css">
+    <script type="text/javascript" src="digitalClock.js" defer></script>
+  </head>
+
+  <body>
+    <div class="digital-clock center">
+      <h1>Digital Clock</h1>
+      <button class="btn start">Start Clock</button>
+      <button class="btn stop">Stop Clock</button>
+      <br>
+      <span class="clock-digit hour1"></span>
+      <span class="clock-digit hour2"></span>
+      <span class="dot"></span>
+      <span class="clock-digit minute1"></span>
+      <span class="clock-digit minute2"></span>
+      <span class="dot"></span>
+      <span class="clock-digit second1"></span>
+      <span class="clock-digit second2"></span>
+    </div>
+
+    <hr>
+
+    <div class="counter center">
+      <h1>Digital Counter</h1>
+      <div class="btn-container">
+        <button class="btn start">Start Counter</button>
+        <button class="btn stop">Stop Counter</button>
+      </div>
+    </div>
+
+    <template id="digit-template">
+      <div class="digit">
+        <div class="block block-h 1"></div>
+        <div class="vertical-wrap">
+          <div class="block block-v 2"></div>
+          <div class="block block-v 3"></div>
+        </div>
+        <div class="block block-h 4"></div>
+        <div class="vertical-wrap">
+          <div class="block block-v 5"></div>
+          <div class="block block-v 6"></div>
+        </div>
+        <div class="block block-h 7"></div>
+      </div>
+    </template>
+  </body>
+</html>

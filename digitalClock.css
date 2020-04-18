@@ -1,0 +1,52 @@
+.center {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* Digit Styling */
+.digit {
+  width: 50px;
+  margin: auto;
+}
+
+.block-h {
+  background: lightgrey;
+  width: 40px;
+  height: 10px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.block-v {
+  background: lightgrey;
+  width: 10px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.vertical-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  background: blue;
+}
+
+/* Digital Clock Styling */
+.digital-clock .clock-digit {
+  display: inline-block;
+  margin: 0 10px;
+}
+.digital-clock .dot {
+  display: inline-block;
+  margin: 0 10px;
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+}
